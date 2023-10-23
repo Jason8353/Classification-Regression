@@ -597,7 +597,6 @@ def test_model():
             'preprocessingType': preprocessingType,
             "y_pred":y_pred
         }
-    print("55555555",result)
     return json.dumps(result, ensure_ascii=False)
 
 if __name__ == '__main__':
